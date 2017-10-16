@@ -1,0 +1,21 @@
+Parity bit
+
+- Redundant bit used for error checking
+Even parity: use parity bit to create an even number of ones
+Odd parity: use parity bit to create an odd number of ones
+
+e.g., odd parity: (1)0111010
+parity bit on the LEFT
+
+e.g., B W B B W B W B W W
+even parity (W = 1)
+First person says B
+Second person sees even number in front of him, says W (now even left)
+Third person sees even in front of him, says B
+Fourth person sees even in front of him, says B
+Fifth person sees odd in front of him, says W (now odd left)
+Sixth person sees odd in front of him, says B
+Seventh person sees even in front of him, says W (now even left)
+Eighth person sees even in front of him, says B
+Ninth person sees odd in front of him, says W (now odd left)
+Tenth person knows one white left says W
